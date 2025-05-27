@@ -1,4 +1,4 @@
-- A script with instructions to build an [[images]].
+- A script with instructions to build an [[image]].
 - Defines what gets installed, copied, run, etc.
 
 basic dockerfile

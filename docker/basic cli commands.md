@@ -1,4 +1,4 @@
-### [[images]] commands
+### [[image]] commands
 ```bash
 docker build -t myimage .         # Build image from Dockerfile
 docker images                     # List images
@@ -7,7 +7,7 @@ docker pull image_name            # Download image from Docker Hub
 docker push image_name            # Upload image to Docker Hub
 ```
 
-### [[containers]] commands
+### [[container]] commands
 ```bash
 docker run image_name             # Run container from image
 docker run -it image_name bash    # Run interactively with bash
@@ -21,7 +21,7 @@ docker rm container_id            # Remove container
 docker exec -it container_id bash # Exec command in running container
 ```
 
-### [[volumes]] commands
+### [[volume]] commands
 ```bash
 docker volume create myvolume             # Create volume
 docker run -v myvolume:/data image        # Mnts volume to /data in container
