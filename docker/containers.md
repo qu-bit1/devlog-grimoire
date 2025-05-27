@@ -1,0 +1,3 @@
+- A running instance of an image.
+- Isolated environment.
+- Lightweight (shares the host OS kernel).
