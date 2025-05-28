@@ -1,4 +1,4 @@
-## my tech notes
+## infra-notes
 
 learning about different technologies why not document them(build that beautiful obsidian graph). might come handy in times of crisis \
 currently the plan is to do the following(not in any particular order)\
