@@ -1,6 +1,8 @@
 like fastAPI
 **What Quarkus Really Solves:** Traditional Java frameworks like Spring Boot are powerful but heavy. A simple REST API might take 30 seconds to start and consume 200MB of RAM.
 
+go read [[cdi]]. real man stuff!!
+
 ---
 **1. In traditional Java, every code change means:
 - Stop server → Recompile → Restart → Wait → Test
