@@ -1,12 +1,12 @@
 ## my tech notes
 
-now as i am starting an intern at unifyapps and learning about different technologies why not document them. might come handy in times of crisis \
+learning about different technologies why not document them(build that beautiful obsidian graph). might come handy in times of crisis \
 currently the plan is to do the following(not in any particular order)\
 - [x] docker
 - [ ] mongodb
 - [ ] redis
-- [ ] quarkus
-- [ ] gradle
+- [x] quarkus
+- [x] gradle
 - [ ] kafka
 - [ ] java concepts
 
