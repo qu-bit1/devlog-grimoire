@@ -12,8 +12,8 @@
 ## Usage in This Project
 
 *   The `devlog-grimoire-digital-garden` repository uses the Quartz v4 template.
-*   Content is sourced from the `content/` directory, which is managed as a [[Concepts/Git Submodules|Git submodule]] pointing to the `devlog-grimoire` notes repository.
-*   Deployment is handled by [[Concepts/Vercel|Vercel]].
+*   Content is sourced from the `content/` directory, which is managed as a [[Git Submodules]] pointing to the `devlog-grimoire` notes repository.
+*   Deployment is handled by [[Vercel]].
 
 See also: [[Digital Garden Deployment Workflow]]
 

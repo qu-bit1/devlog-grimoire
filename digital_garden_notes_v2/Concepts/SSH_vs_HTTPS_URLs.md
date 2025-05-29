@@ -8,7 +8,7 @@ When interacting with remote Git repositories (like those on GitHub), you primar
 *   **Authentication:** Typically uses username/password (deprecated for command-line Git operations on GitHub) or, more commonly now, Personal Access Tokens (PATs) or OAuth.
 *   **Pros:** Generally easier to set up initially, often works without firewall issues.
 *   **Cons:** Can require entering credentials or managing tokens.
-*   **Use Case in This Project:** Required in the `.gitmodules` file of the parent repository (`devlog-grimoire-digital-garden`) so that [[Concepts/Vercel|Vercel]]'s build system can clone the public `devlog-grimoire` submodule without needing SSH keys.
+*   **Use Case in This Project:** Required in the `.gitmodules` file of the parent repository (`devlog-grimoire-digital-garden`) so that [[Vercel]]'s build system can clone the public `devlog-grimoire` submodule without needing SSH keys.
 
 ## SSH URLs
 
@@ -20,7 +20,7 @@ When interacting with remote Git repositories (like those on GitHub), you primar
 
 ## The Conflict
 
-The core issue in the [[Digital Garden Deployment Workflow]] arose because [[Concepts/Vercel|Vercel]] needed an HTTPS URL to clone the submodule, while the user's personal workflow preferred an SSH URL for pushing changes to the same submodule. The `git submodule sync` command, used to apply the HTTPS URL for Vercel, unfortunately also changed the local push URL, leading to the [[Local Push Issue]]. The solution involved setting different URLs for different contexts: HTTPS in `.gitmodules` (for Vercel) and SSH in the local submodule's remote configuration (for personal pushes).
+The core issue in the [[Digital Garden Deployment Workflow]] arose because [[Vercel]] needed an HTTPS URL to clone the submodule, while the user's personal workflow preferred an SSH URL for pushing changes to the same submodule. The `git submodule sync` command, used to apply the HTTPS URL for Vercel, unfortunately also changed the local push URL, leading to the [[Local Push Issue]]. The solution involved setting different URLs for different contexts: HTTPS in `.gitmodules` (for Vercel) and SSH in the local submodule's remote configuration (for personal pushes).
 
-See also: [[Concepts/Git Submodules]], [[Vercel Submodule Issue]], [[Local Push Issue]]
+See also: [[Git Submodules]], [[Vercel Submodule Issue]], [[Local Push Issue]]
 
