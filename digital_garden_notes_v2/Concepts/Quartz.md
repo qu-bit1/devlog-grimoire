@@ -1,5 +1,3 @@
-# Quartz
-
 [[Quartz]] is a fast, batteries-included static site generator that transforms Markdown content into a functional website.
 
 ## Key Features
@@ -12,8 +10,8 @@
 ## Usage in This Project
 
 *   The `devlog-grimoire-digital-garden` repository uses the Quartz v4 template.
-*   Content is sourced from the `content/` directory, which is managed as a [[Git Submodules]] pointing to the `devlog-grimoire` notes repository.
+*   Content is sourced from the `content/` directory, which is managed as a [[Git_Submodules]] pointing to the `devlog-grimoire` notes repository.
 *   Deployment is handled by [[Vercel]].
 
-See also: [[Digital Garden Deployment Workflow]]
+See also: [[Digital_Garden_Deployment_Workflow]]
 

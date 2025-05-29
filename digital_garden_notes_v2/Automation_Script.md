@@ -1,6 +1,6 @@
 # Automation Script (update_garden.sh)
 
-This script automates the two-step process required to update the [[Quartz]] digital garden when using [[Git Submodules]] for content.
+This script automates the two-step process required to update the [[Quartz]] digital garden when using [[Git_Submodules]] for content.
 
 ## Purpose
 
@@ -102,7 +102,7 @@ exit 0
 
 ## Important Note
 
-This script relies on the `origin` remote within the `content/` submodule being configured to use the [[SSH vs HTTPS URLs]] (`git@github.com:...`) to allow pushing via SSH keys. If it prompts for HTTPS credentials, it indicates the [[Local Push Issue]] needs to be addressed by setting the submodule's remote URL back to SSH.
+This script relies on the `origin` remote within the `content/` submodule being configured to use the [[SSH_vs_HTTPS_URLs]] (`git@github.com:...`) to allow pushing via SSH keys. If it prompts for HTTPS credentials, it indicates the [[Local_Push_Issue]] needs to be addressed by setting the submodule's remote URL back to SSH.
 
-See also: [[Digital Garden Deployment Workflow]], [[Local Push Issue]]
+See also: [[Digital_Garden_Deployment_Workflow]], [[Local_Push_Issue]]
 
