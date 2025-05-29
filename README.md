@@ -12,4 +12,5 @@ currently the plan is to do the following(not in any particular order)\
 - [x] gradle
 - [ ] kafka
 - [ ] java concepts
+- [x] host and add submodules
 
